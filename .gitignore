@@ -1,0 +1,4 @@
+# .gitignore은 이 파일에 적힌 파일을 무시하게한다.
+.DS_Store
+/.vscode
+/screenshot
