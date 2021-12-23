@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
-    <div id="status-bar">
-      <div class="status-bar_column">
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
-        <!--To Do : Wifi Icon -->
+        <i class="fas fa-wifi"></i>
+          <path
+            d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
+          />
+        </svg>
       </div>
-      <div class="status-bar_column">
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div class="status-bar_column">
+      <div class="status-bar__column">
         <span>11%</span>
-        <!-- Battery Icon -->
-        <!-- Lightning Icon -->
+        <!-- fontawesome 에서 아이콘 가져오기 -->
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>      
       </div>
     </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p  class="welcome-header__text">코코아톡 계정이 있으시면, E-mail과 전화번호로 로그인하세요</p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="E-mail 또는 전화번호"/>
+      <input type="password" placeholder="패스워드 입력"/>
+      <input type="submit" value="로그인">
+      <a href="#">코코아톡 계정 또는 패스워드 찾기</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
