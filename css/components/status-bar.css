@@ -5,7 +5,10 @@
 }
 
 .status-bar__column {
-    width: 33%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .status-bar__column:first-child span {
