@@ -8,6 +8,7 @@
 
 /* Components */
 @import "./components/status-bar.css";
+@import "./components/nav-bar.css";
 
 body {
     font-family: "Open Sans", sans-serif;
