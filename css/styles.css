@@ -7,6 +7,7 @@
 /* Screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
+@import "./screens/chat.css";
 
 /* Components */
 @import "./components/status-bar.css";
