@@ -38,7 +38,6 @@
     display: flex;
     justify-content: space-between;
     opacity: 0.6;
-    margin-bottom: 25px;
 }
 
 .open-chat__header span {
@@ -46,11 +45,12 @@
 }
 
 .open-chat-post {
+    margin-top: 25px;
     padding-bottom: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: var(--main-border);
+    border-bottom: var(--main-border);
 }
 
 .open-chat-post__title {
