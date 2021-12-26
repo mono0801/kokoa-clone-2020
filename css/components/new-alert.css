@@ -20,3 +20,13 @@
     left: -3px;
     bottom: 20px;
 }
+
+.alert-more {
+    background-color: tomato;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    top: -15px;
+}
