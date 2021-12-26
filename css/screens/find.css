@@ -46,7 +46,11 @@
 }
 
 .open-chat-post {
+    padding-bottom: 25px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--main-border);
 }
 
 .open-chat-post__title {
@@ -86,4 +90,31 @@
 
 .open-chat-post__attribute-status {
     color: #ffb0e0;
+}
+
+.open-chat-post__photo {
+    position: relative;
+}
+
+.open-chat-post__photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.open-chat-post__like-count {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+}
+
+.open-chat-post__like-count span {
+    margin-left: 3px;
 }
