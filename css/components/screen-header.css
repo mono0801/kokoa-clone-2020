@@ -16,3 +16,7 @@
 .screen-header__icons span {
     margin-left: 25px;
 }
+
+.find-cog__icon {
+    position: relative;
+}

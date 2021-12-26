@@ -9,3 +9,14 @@
     align-items: center;
     font-weight: 600;
 }
+
+/* Find창과 More창 우측 상단의 톱니바퀴 아이콘 위에 알람 표시 */
+.alert-cog {
+    background-color: tomato;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    left: -3px;
+    bottom: 20px;
+}
