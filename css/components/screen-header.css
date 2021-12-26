@@ -4,7 +4,7 @@
     align-items: center;
     padding: var(--horizontal-space);
     margin-bottom: 15px;
-    /* padding-top: 40px; */
+    padding-top: 40px;
     opacity: 90%;
 }
 
