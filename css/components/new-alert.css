@@ -40,3 +40,23 @@
     right: -10px;
     top: -18px;
 }
+
+.user-component__subtitle-notification {
+    position: relative;
+    color: tomato;
+    opacity: 1;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1.5px solid tomato;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.user-component__subtitle-notification span {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transform: (-50%, -50%);
+}

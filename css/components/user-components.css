@@ -60,3 +60,7 @@
     margin-bottom: 5px;
     display: block;
 }
+
+.user-component__more-subtitle {
+    display: flex;
+}
