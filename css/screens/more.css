@@ -13,14 +13,16 @@
 }
 
 .more-suggestions__icons {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, auto));
+    row-gap: 50px;
+    column-gap: 34px;
 }
 
 .more-suggestions__icon {
-    margin-right: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .more-suggestions__icon-image {

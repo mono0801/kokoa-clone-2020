@@ -20,9 +20,9 @@
 
 .icon-raw__more {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(20%, auto));
     row-gap: 50px;
-    column-gap: 40px;
+    column-gap: 34px;
     margin: 20px 0px;
     padding: 20px 0px;
     opacity: 0.8;
