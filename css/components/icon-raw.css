@@ -17,3 +17,30 @@
 .icon-raw__icon span {
     margin-top: 20px;
 }
+
+.icon-raw__more {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 50px;
+    column-gap: 30px;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.icon-raw__more i {
+    font-size: 35px;
+}
+
+.icon-raw__more-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-raw__more-icon span {
+    margin-top: 10px;
+}
+
+.icon-raw__more-icon__talkdrive {
+    position: relative;
+}
