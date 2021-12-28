@@ -22,9 +22,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 50px;
-    column-gap: 30px;
+    column-gap: 40px;
     margin: 20px 0px;
     padding: 20px 0px;
+    opacity: 0.8;
 }
 
 .icon-raw__more i {
