@@ -22,6 +22,7 @@
 .message-row {
     width: 100%;
     display: flex;
+    margin-bottom: 25px;
 }
 
 .message-row img {
@@ -54,4 +55,20 @@
 .message__user {
     opacity: 0.8;
     font-size: 14px;
+}
+
+.message-row--me {
+    justify-content: flex-end;
+}
+
+.message-row--me .message__contents__text {
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+.message-row--me .message__contents {
+    flex-direction: row-reverse;
 }
