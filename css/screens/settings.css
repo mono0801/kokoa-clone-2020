@@ -4,10 +4,23 @@
     font-size: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .settings__setting i {
-    margin-right: 20px;
     font-size: 22px;
     opacity: 0.8;
+}
+
+.settings__setting-column {
+    display: flex;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}
+
+.settings__setting-column__icon {
+    width: 40px;
+    margin-right: 10px;
 }
