@@ -19,12 +19,13 @@
 @import "./components/user-components.css";
 @import "./components/new-alert.css";
 @import "./components/icon-raw.css";
-@import "./components/alt-scree-header.css";
+@import "./components/alt-screen-header.css";
 
 body {
     color: #2e363e;
     font-family: "Open Sans", sans-serif;
-    /* height: 1000vh; */
+    height: 1000vh;
+    background-color: white;
 }
 
 .main-screen {
