@@ -30,7 +30,9 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <i class="fas fa-angle-left fa-3x"></i>
+        <a href="javascript:history.back();">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__title">Settings</h1>
@@ -43,16 +45,31 @@
     <main class="main-screen">
       <ul class="settings-list">
         <li class="settings__setting">
-          <i class="fas fa-bullhorn"></i>
-          <span>Notices</span>
+          <div class="settings__setting-column">
+            <div class="settings__setting-column__icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
         </li>
         <li class="settings__setting">
-          <i class="fas fa-flask"></i>
-          <span>Kokoa Lab</span>
+          <div class="settings__setting-column">
+            <div class="settings__setting-column__icon">
+              <i class="fas fa-flask"></i>
+            </div>
+            <span>Kokoa Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
         </li>
         <li class="settings__setting">
-          <i class="fas fa-info-circle"></i>
-          <span>Version</span>
+          <div class="settings__setting-column">
+            <div class="settings__setting-column__icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column"> Latest version</div>
         </li>
       </ul>
     </main>
