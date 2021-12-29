@@ -7,6 +7,10 @@
     justify-content: space-between;
 }
 
+.settings-margin {
+    margin-bottom: 120px;
+}
+
 .settings__setting i {
     font-size: 22px;
     opacity: 0.8;
