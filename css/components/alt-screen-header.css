@@ -20,10 +20,6 @@
     width: 33%;
 }
 
-.alt-header__column:first-child {
-    display: flex;
-}
-
 .alt-header__column:nth-child(2) {
     text-align: center;
 }
