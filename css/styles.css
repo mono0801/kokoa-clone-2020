@@ -9,6 +9,7 @@
 @import "./screens/friends.css";
 @import "./screens/find.css";
 @import "./screens/more.css";
+@import "./screens/settings.css";
 
 /* Components */
 @import "./components/status-bar.css";
@@ -17,6 +18,7 @@
 @import "./components/user-components.css";
 @import "./components/new-alert.css";
 @import "./components/icon-raw.css";
+@import "./components/alt-scree-header.css";
 
 body {
     color: #2e363e;
