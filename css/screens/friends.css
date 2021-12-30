@@ -28,3 +28,16 @@
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+#splash-screen {
+    background-color: var(--yellow);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
