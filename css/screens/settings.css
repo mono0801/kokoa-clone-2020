@@ -1,3 +1,7 @@
+#setting-screen {
+    height: 120vh;
+}
+
 .settings__setting {
     padding: 20px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
