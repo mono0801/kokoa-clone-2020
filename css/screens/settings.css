@@ -36,3 +36,31 @@
     width: 40px;
     margin-right: 10px;
 }
+
+@keyframes appearSettingsList {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.settings__setting {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appearSettingsList 0.3s ease-in-out forwards;
+}
+
+.settings__setting:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.settings__setting:last-child {
+    animation-delay: 0.2s;
+}
+
+.settings__back-icon:hover {
+    color: var(--yellow);
+}
