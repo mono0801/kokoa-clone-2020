@@ -74,6 +74,7 @@
 .message__contents {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 6px;
 }
 
 .message-row--other .message__contents {
