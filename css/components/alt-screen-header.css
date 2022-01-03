@@ -33,3 +33,7 @@
 .alt-header__column span:last-child {
     margin-left: 30px;
 }
+
+.setting-alt-header__colunm .alt-header__title {
+    padding-bottom: 15px;
+}

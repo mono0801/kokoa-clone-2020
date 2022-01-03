@@ -111,7 +111,7 @@
     margin-left: 3px;
 }
 
-@keyframes heartbeat {
+@keyframes heartBeat {
     0% {
         color: white;
         transform: none;
@@ -128,5 +128,5 @@
 
 .open-chat-post__photo:hover i {
     will-change: transform;
-    animation: heartBeat 1.5s linear infinite;
+    animation: heartBeat 1.3s linear infinite;
 }
