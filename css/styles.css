@@ -27,6 +27,8 @@ body {
     color: #2e363e;
     font-family: "Open Sans", sans-serif;
     background-color: white;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
 
 body::-webkit-scrollbar {
