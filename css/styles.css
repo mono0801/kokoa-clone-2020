@@ -11,6 +11,7 @@
 @import "./screens/more.css";
 @import "./screens/settings.css";
 @import "./screens/chatting.css";
+@import url("./screens/loading.css");
 
 /* Components */
 @import "./components/status-bar.css";
